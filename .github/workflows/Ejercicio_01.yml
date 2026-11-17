@@ -1,0 +1,13 @@
+name: Ejercicio 01
+on:
+    workflow_dispatch:
+
+jobs: 
+
+    ejemplo:
+                runs-on: ubuntu-latest
+
+                steps:
+
+                        - name: Mensaje personalizado
+                            run: echo "Hola, mi nombre es cromano-stemdo y mi primera automatización se ha ejecutado correctamente"
