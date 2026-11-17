@@ -9,5 +9,5 @@ jobs:
 
                 steps:
 
-                        - name: Mensaje personalizado
-                            run: echo "Hola, mi nombre es cromano-stemdo y mi primera automatización se ha ejecutado correctamente"
+                -   name: Mensaje personalizado
+                    run: echo "Hola, mi nombre es cromano-stemdo y mi primera automatización se ha ejecutado correctamente"
